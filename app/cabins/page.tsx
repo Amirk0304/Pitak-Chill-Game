@@ -1,6 +1,17 @@
 import AppShell from '@/components/app-shell'
 import { Users, Zap, Coffee, GlassWater, Utensils } from 'lucide-react'
 import BookBtn from '@/components/bookBtn/bookBtn'
+import { type Metadata } from 'next'
+
+export const metadata: Metadata = {
+	title: 'Кабинки | Pitak',
+	description: 'Наши игровые кабины',
+	icons: {
+		icon: '/Pitak-logonew2.ico',
+		shortcut: '/Pitak-logonew2.png',
+		apple: '/Pitak-logonew2.png',
+	},
+}
 
 export default function Cabins() {
 	const cabins = [

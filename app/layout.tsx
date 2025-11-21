@@ -10,6 +10,11 @@ export const metadata: Metadata = {
 	title: 'Pitak Game & Chill',
 	description: 'Your ultimate gaming club experience',
 	generator: 'v0.app',
+	icons: {
+		icon: '/Pitak-logonew2.ico',
+		shortcut: '/Pitak-logonew2.png',
+		apple: '/Pitak-logonew2.png',
+	},
 }
 
 export default function RootLayout({

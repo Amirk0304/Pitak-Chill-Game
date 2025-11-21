@@ -1,10 +1,21 @@
 'use client'
 
 import type React from 'react'
+import type { Metadata } from 'next'
 import AppShell from '@/components/app-shell'
 import MapSection from '@/components/map-section/mapSection'
 import { useState } from 'react'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
+
+// export const metadata: Metadata = {
+// 	title: 'Контакты | Pitak',
+// 	description: 'Свяжитесь с нами для бронирования и информации',
+// 	icons: {
+// 		icon: '/Pitak-logonew2.ico',
+// 		shortcut: '/Pitak-logonew2.png',
+// 		apple: '/Pitak-logonew2.png',
+// 	},
+// }
 
 const Contacts = () => {
 	const [formData, setFormData] = useState({ name: '', email: '', message: '' })

@@ -1,6 +1,17 @@
 import AppShell from '@/components/app-shell'
 import Cards from '@/components/cards'
 import { Award, Globe, Users, Zap } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+	title: 'О нас | Pitak',
+	description: 'Узнайте больше о PITAK Game & Chill, нашей миссии и целях',
+	icons: {
+		icon: '/Pitak-logonew2.ico',
+		shortcut: '/Pitak-logonew2.png',
+		apple: '/Pitak-logonew2.png',
+	},
+}
 
 export default function About() {
 	return (
