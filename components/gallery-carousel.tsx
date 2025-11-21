@@ -48,13 +48,13 @@ export default function GalleryCarousel() {
 								key={slide.src}
 								className='basis-[90%] sm:basis-[80%] md:basis-2/3 lg:basis-1/2'
 							>
-								<div className='relative hover:scale-105 transition duration-300 aspect-[1.6] overflow-hidden rounded-2xl border border-border bg-card'>
+								<div className='relative transition hover:border-accent duration-300 aspect-[1.6] overflow-hidden rounded-2xl border border-border bg-card'>
 									<Image
 										src={slide.src}
 										alt={slide.alt}
 										fill
 										sizes='(min-width: 1024px) 50vw, (min-width: 768px) 66vw, 90vw'
-										className='object-cover'
+										className='object-cover hover:scale-105 transition'
 										priority={false}
 									/>
 								</div>
