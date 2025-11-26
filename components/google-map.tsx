@@ -19,7 +19,7 @@ export default function GoogleMapComponent({
 	return (
 		<div
 			id='location'
-			className='w-full h-[500px] rounded-lg overflow-hidden border-4 border-amber-400'
+			className='w-full h-[500px] rounded-lg overflow-hidden border-3 border-amber-50 hover:border-amber-400'
 		>
 			{hasApiKey ? (
 				<iframe

@@ -1,4 +1,3 @@
-import React from 'react'
 import GoogleMapComponent from '@/components/google-map'
 
 function mapSection() {
@@ -8,7 +7,10 @@ function mapSection() {
 				<h2 className='text-3xl md:text-5xl  text-white text-balance'>
 					Как нас найти
 				</h2>
-				<p className='text-lg text-muted-foreground'>локация: Газалкент</p>
+				<p className='text-lg text-muted-foreground'>
+					локация: Ташкентская область, Бостанлыкский район, Город ​Газалкент,
+					Улица: Мустакиллик дом 79
+				</p>
 				<GoogleMapComponent />
 			</div>
 		</section>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Socials() {
 	return (
 		<div className='flex gap-3 items-center'>
-			<Link href='#'>
+			<Link href='https://www.instagram.com/pitak_chill_game?igsh=MWJjbXd4NThkZzVhZg=='>
 				<Image
 					src='icons/icons8-instagram-logo-30h.png'
 					width={23}
@@ -14,7 +14,7 @@ function Socials() {
 					className='hover:opacity-80 active:opacity-60 transition color-accent'
 				/>
 			</Link>
-			<Link href='#'>
+			<Link href='https://t.me/pitak_gaming_club'>
 				<Image
 					src='icons/icons8-telegram-logo-50h.png'
 					width={20}
@@ -23,7 +23,7 @@ function Socials() {
 					className='hover:opacity-80 active:opacity-60 transition color-accent'
 				/>
 			</Link>
-			<Link href='#'>
+			<Link href='https://wa.me/998957475737'>
 				<Image
 					src='icons/icons8-whatsapp-logo-50h.png'
 					width={20}
