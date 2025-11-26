@@ -44,20 +44,20 @@ const Contacts = () => {
 							{
 								icon: MapPin,
 								title: 'Локация',
-								info: '123 Gaming Avenue, Tech City, TC 12345',
+								info: 'Ташкентская область, Бостанлыкский район, Город ​Газалкент,  Улица: Мустакиллик  дом 79 ',
 								link: 'https://maps.app.goo.gl/FoPBAp4DpfhjiCJh9',
 							},
 							{
 								icon: Phone,
 								title: 'Телефонный номер',
-								info: '+1 (555) 123-4567',
-								link: 'tel:+15551234567',
+								info: '+99895 7475737',
+								link: 'tel:+99895 7475737',
 							},
 							{
 								icon: Mail,
 								title: 'Электронная почта',
-								info: 'hello@pitak.com',
-								link: 'mailto:hello@pitak.com',
+								info: 'timurdauilbaev@gmail.com',
+								link: 'mailto:timurdauilbaev@gmail.com',
 							},
 							{
 								icon: Clock,
