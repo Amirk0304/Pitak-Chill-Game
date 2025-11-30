@@ -69,7 +69,7 @@ export default function Sidebar({
 
 			{/* Mobile Sidebar */}
 			{mobileMenuOpen && (
-				<aside className='fixed inset-0 z-40 md:hidden'>
+				<aside className='fixed inset-0 z-510 md:hidden'>
 					<div
 						className='absolute inset-0 bg-black/50'
 						onClick={() => setMobileMenuOpen(false)}

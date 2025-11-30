@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
+			<head>
+				<meta name='google44ae1fd865e8374c.html' content='notranslate' />
+			</head>
+
 			<body className={`font-sans antialiased dark`}>{children}</body>
 		</html>
 	)

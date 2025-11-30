@@ -19,23 +19,30 @@ export default function Cabins() {
 			id: 1,
 			name: 'Gold zone',
 			players: 10,
-			description: 'Perfect for competitive gamers',
-			price: '15.000 сум в час',
+			description: 'Идеально подходит для профессиональных геймеров',
+			price: '12.000 сум/час днём  ',
+			price2: ' 14.000 сум/час вечером ',
 			image: '/photos/gold.jpg',
-			features: ['4K Monitor', 'High-end PC', 'Gaming Chair', 'RGB Lighting'],
+			features: [
+				'Монитор 280 Герц',
+				'Видеокарта GeForce RTX 3060 Ti',
+				'Игровой стул',
+				'Intel Core i5-14400 ',
+			],
 		},
 		{
 			id: 2,
 			name: 'Silver zone',
 			players: 10,
-			description: 'Ideal for team practice and casual gaming',
-			price: '15.000 сум в час',
+			description: 'Идеально подходит для командных тренировочных игр.',
+			price: '8.000 сум/час днём  ',
+			price2: ' 10.000 сум/час вечером ',
 			image: '/photos/silver.jpg',
 			features: [
-				'Dual Displays',
-				'Dual PCs',
-				'Comfortable Seating',
-				'Headset Ready',
+				'Монитор 280 Герц',
+				'Видеокарта серии GeForce GTX 1660 Super',
+				'Удобный стул',
+				'Intel Core i5-14400 ',
 			],
 		},
 		{
@@ -43,13 +50,14 @@ export default function Cabins() {
 			name: 'Play Station VIP-1 zone',
 			players: 8,
 			description: 'Максимальный опыт командной игры',
-			price: '15.000 сум в час50/hour',
-			image: '/photos/PS-vip.jpg',
+			price: '30.000 сум/час днём  ',
+			price2: '40.000 сум/час вечером ',
+			image: '/photos/PS-vip1.jpg',
 			features: [
-				'4x Displays',
-				'Tournament Setup',
-				'Sound System',
-				'Team Lounge',
+				'Телевизор 85 дюймов 4к дисплей',
+				'Playstation 5',
+				'4х джойстики',
+				'Уютная игровая обстановка',
 			],
 		},
 		{
@@ -57,13 +65,14 @@ export default function Cabins() {
 			name: 'Play Station VIP-2 zone',
 			players: 6,
 			description: 'Максимальный опыт командной игры',
-			price: '15.000 сум в час50/hour',
+			price: '40.000 сум/час днём  ',
+			price2: ' 50.000 сум/час вечером ',
 			image: '/photos/PS-vip2.jpg',
 			features: [
-				'4x Displays',
-				'Tournament Setup',
-				'Sound System',
-				'Team Lounge',
+				'Телевизор 75 дюймов 4к дисплей',
+				'Playstation 5',
+				'2х джойстики',
+				'Уютная игровая обстановка',
 			],
 		},
 		{
@@ -83,7 +92,6 @@ export default function Cabins() {
 		{
 			id: 7,
 			name: 'Главный Зал',
-
 			description:
 				'Комфортный зал для просмотра футбольных матчей и настольных игр.»',
 			price: 'Бесплатно',
@@ -119,7 +127,7 @@ export default function Cabins() {
 					</p>
 				</div>
 
-				<div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+				<div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
 					{cabins.map(cabin => (
 						<div
 							key={cabin.id}
@@ -156,9 +164,15 @@ export default function Cabins() {
 								</div>
 
 								<div className='space-y-2'>
-									<p className='text-primary font-bold text-lg'>
-										{cabin.price}
-									</p>
+									<div className='mb-4'>
+										<p className='text-primary mb-0 font-bold text-lg'>
+											{cabin.price}
+										</p>
+										<p className='text-primary font-bold text-lg'>
+											{cabin.price2}
+										</p>
+									</div>
+
 									<ul className='space-y-1'>
 										{cabin.features.map((feature, idx) => {
 											const getBarIcon = (index: number) => {
