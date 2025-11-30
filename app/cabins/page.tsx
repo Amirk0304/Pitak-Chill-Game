@@ -52,7 +52,7 @@ export default function Cabins() {
 			description: 'Максимальный опыт командной игры',
 			price: '30.000 сум/час днём  ',
 			price2: '40.000 сум/час вечером ',
-			image: '/photos/PS-vip1.jpg',
+			image: '/photos/PS-vip1-big.jpg',
 			features: [
 				'Телевизор 85 дюймов 4к дисплей',
 				'Playstation 5',
