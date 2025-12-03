@@ -11,9 +11,15 @@ export const metadata: Metadata = {
 	description: 'Your ultimate gaming club experience',
 	generator: 'v0.app',
 	icons: {
-		icon: '/Pitak-logonew2.ico',
+		icon: '/Pitak-logonew2.png',
 		shortcut: '/Pitak-logonew2.png',
 		apple: '/Pitak-logonew2.png',
+	},
+	verification: {
+		google: '44ae1fd865e8374c',
+	},
+	other: {
+		google: 'notranslate',
 	},
 }
 
@@ -24,10 +30,6 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<head>
-				<meta name='google44ae1fd865e8374c.html' content='notranslate' />
-			</head>
-
 			<body className={`font-sans antialiased dark`}>{children}</body>
 		</html>
 	)
