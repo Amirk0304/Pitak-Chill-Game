@@ -16,6 +16,7 @@ const logo = () => {
 					alt='Logo'
 					loading='eager'
 					className='hover:opacity-80 transition color-accent'
+					priority={true}
 				/>
 				<div className='flex text-4xl text-white flex-col'>
 					<p>PITAK</p>
