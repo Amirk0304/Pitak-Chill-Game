@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 	title: 'Кабинки | Pitak',
 	description: 'Наши игровые кабины',
 	icons: {
-		icon: '/Pitak-logonew2.ico',
+		icon: '/favicon.ico',
 		shortcut: '/Pitak-logonew2.png',
 		apple: '/Pitak-logonew2.png',
 	},

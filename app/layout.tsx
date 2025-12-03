@@ -8,10 +8,10 @@ const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
 	title: 'Pitak Game & Chill',
-	description: 'Your ultimate gaming club experience',
-	generator: 'v0.app',
+	description:
+		'Современный игровой клуб с комфортными местами, мощными ПК и атмосферой для настоящих геймеров.',
 	icons: {
-		icon: '/Pitak-logonew2.png',
+		icon: '/favicon.ico',
 		shortcut: '/Pitak-logonew2.png',
 		apple: '/Pitak-logonew2.png',
 	},

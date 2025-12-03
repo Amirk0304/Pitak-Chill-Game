@@ -4,7 +4,7 @@ export const metadata: Metadata = {
 	title: 'Новости | Pitak',
 	description: 'Последние новости, обновления и события PITAK Game & Chill',
 	icons: {
-		icon: '/Pitak-logonew2.ico',
+		icon: '/favicon.ico',
 		shortcut: '/Pitak-logonew2.png',
 		apple: '/Pitak-logonew2.png',
 	},

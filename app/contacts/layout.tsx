@@ -4,7 +4,7 @@ export const metadata: Metadata = {
 	title: 'Контакты | Pitak',
 	description: 'Свяжитесь с нами для бронирования и информации',
 	icons: {
-		icon: '/Pitak-logonew2.ico',
+		icon: '/favicon.ico',
 		shortcut: '/Pitak-logonew2.png',
 		apple: '/Pitak-logonew2.png',
 	},
